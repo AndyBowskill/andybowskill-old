@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{http_host} ^andybowskill.co.uk [nc]
+RewriteRule ^(.*)$ http://www.andybowskill.co.uk/$1 [R=301,nc]
+RewriteCond %{THE_REQUEST} ^.*\/index\.html\ HTTP/
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
