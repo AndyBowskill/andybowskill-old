@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+  .hero-unit {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 979px) {
+  .navbar-fixed-top {
+    margin-bottom: auto;
+  }
+}

@@ -7,9 +7,10 @@
     <meta name="description" content="Official website of Andy Bowskill, software developer and web designer." />
     <meta name="keywords" content="software developer, web developer, web designer, Andy Bowskill, Berkshire, South-East, UK, iOS, C#, JavaScript, jQuery, HTML, CSS" />
     <meta name="author" content="Andy Bowskill">
-    <link href="/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/css/responsive.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="/assets/css/application.css" rel="stylesheet">
+    <link href="/assets/css/application-responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -19,112 +20,107 @@
     <link rel="apple-touch-icon-precomposed" href="/assets/ico/appletouch57.png">
   </head>
   <body>
-    <div class="hero-unit" >
-      <div class="container">
-        <div class="row">
-          <div class="span8">
-            <h1>Andy Bowskill</h1>
-            <p>Professional software developer based in Berkshire, United Kingdom.</p>
-            <p>A portfolio of completed personal projects developed by me, Andy Bowskill.</p>
-          </div>
-          <div class="span4">
-            <h3>Contact</h3>
-            <a href="mailto:andy@andybowskill.co.uk?subject=Enquiry%20submitted%20from%20www.andybowskill.co.uk">andy@andybowskill.co.uk</a>
-            <h3>Information</h3>
-            <a href="http://blog.andybowskill.co.uk/">App support blog</a>
-            <h3>Follow</h3>
-            <ul class="social_media_btns">
-              <li>
-                <a href="http://www.linkedin.com/in/andrewbowskill"><img src="/assets/img/LinkedIn_icon.png" alt="LinkedIn"></a>
-                <a href="https://twitter.com/AndyBowskill"><img src="/assets/img/twitter_icon.png" alt="twitter"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <header>
-        <div class="subnav">
-          <ul class="nav nav-pills">
-            <li >
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav">
+            <li>
               <a href="/">iOS Apps</a>
             </li>
             <li class="active">
               <a href="/web/">Web Design</a>
             </li>
+            <li>
+              <a href="http://blog.andybowskill.co.uk/">Blog</a>
+            </li>
+          </ul>
+          <ul class="nav pull-right">
+            <li>
+              <a class="contact" href="https://twitter.com/AndyBowskill"><img src="/assets/img/twitter_icon.png" alt="twitter"></a>
+            </li>
+            <li>              
+              <a class="contact_last" href="http://www.linkedin.com/in/andrewbowskill"><img src="/assets/img/LinkedIn_icon.png" alt="LinkedIn"></a>
+            </li>            
           </ul>
         </div>
-      </header>
-          <section id="web">
-            <div class="row">
-              <div class="span6">
-                <h2>Dani Duffy Make-Up</h2>
-                 <p>This website was designed and developed for a professional make-up artist.</p>
-                 <p>The website is presented in a portfolio style to show the diversity of the make-up artist's work whilst ensuring that common contact details are always visible to the user.</p>
-                <p><a class="btn" href="http://www.daniduffymakeup.co.uk/">View website &raquo;</a></p>
-              </div>
-              <div class="span6">
-                <div class="carousel slide">
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <a href="http://www.daniduffymakeup.co.uk/" class="thumbnail"><img src="/assets/img/web/daniduffymakeup/1.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                      <a href="http://www.daniduffymakeup.co.uk/" class="thumbnail"><img src="/assets/img/web/daniduffymakeup/2.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                      <a href="http://www.daniduffymakeup.co.uk/" class="thumbnail"><img src="/assets/img/web/daniduffymakeup/3.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                      <a href="http://www.daniduffymakeup.co.uk/" class="thumbnail"><img src="/assets/img/web/daniduffymakeup/4.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                      <a href="http://www.daniduffymakeup.co.uk/" class="thumbnail"><img src="/assets/img/web/daniduffymakeup/5.jpg" alt=""></a>
-                    </div>
-                  </div>
+       </div> 
+    </div>    
+    <header class="hero-unit">
+      <div class="container">
+        <h1>Andy Bowskill</h1>
+        <p class="lead">A portfolio of completed personal projects designed and developed by me, a professional software developer based in Berkshire, United Kingdom.</p>
+        <p>Contact me at <a href="mailto:andy@andybowskill.co.uk">andy@andybowskill.co.uk</a>.</p>
+      </div>
+    </header>    
+    <div class="container">
+      <section id="web">
+        <div class="row">
+          <div class="span6">
+            <h2>Dani Duffy Make-Up</h2>
+             <p>This website was designed and developed for a professional make-up artist.</p>
+             <p>The website is presented in a portfolio style to show the diversity of the make-up artist's work whilst ensuring that common contact details are always visible to the user.</p>
+            <p><a class="btn btn-primary" href="http://www.daniduffymakeup.co.uk/">View website</a></p>
+          </div>
+          <div class="span6">
+            <div class="carousel slide">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <a href="http://www.daniduffymakeup.co.uk/" class="thumbnail"><img src="/assets/img/web/daniduffymakeup/1.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                  <a href="http://www.daniduffymakeup.co.uk/" class="thumbnail"><img src="/assets/img/web/daniduffymakeup/2.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                  <a href="http://www.daniduffymakeup.co.uk/" class="thumbnail"><img src="/assets/img/web/daniduffymakeup/3.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                  <a href="http://www.daniduffymakeup.co.uk/" class="thumbnail"><img src="/assets/img/web/daniduffymakeup/4.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                  <a href="http://www.daniduffymakeup.co.uk/" class="thumbnail"><img src="/assets/img/web/daniduffymakeup/5.jpg" alt=""></a>
                 </div>
               </div>
             </div>
-            <hr />
-            <div class="row">
-              <div class="span6">
-                <h2>Heathfield Construction</h2>
-                 <p>This website was designed and developed for a building contractor and property development company.</p>
-                 <p>The website serves to provide a concise overview of all of the business's services as well as functional galleries for a number of select projects. Each page contains a call to action to encourage users to contact the business and discuss their requirements.</p>
-                <p><a class="btn" href="http://www.heathfieldconstruction.co.uk/">View website &raquo;</a></p>
-             </div>
-              <div class="span6">
-                <div class="carousel slide">
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <a href="http://www.heathfieldconstruction.co.uk/" class="thumbnail"><img src="/assets/img/web/heathfieldconstruction/1.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                      <a href="http://www.heathfieldconstruction.co.uk/" class="thumbnail"><img src="/assets/img/web/heathfieldconstruction/2.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                      <a href="http://www.heathfieldconstruction.co.uk/" class="thumbnail"><img src="/assets/img/web/heathfieldconstruction/3.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                      <a href="http://www.heathfieldconstruction.co.uk/" class="thumbnail"><img src="/assets/img/web/heathfieldconstruction/4.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                      <a href="http://www.heathfieldconstruction.co.uk/" class="thumbnail"><img src="/assets/img/web/heathfieldconstruction/5.jpg" alt=""></a>
-                    </div>
-                  </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="span6">
+            <h2>Heathfield Construction</h2>
+             <p>This website was designed and developed for a building contractor and property development company.</p>
+             <p>The website serves to provide a concise overview of all of the business's services as well as functional galleries for a number of select projects. Each page contains a call to action to encourage users to contact the business and discuss their requirements.</p>
+            <p><a class="btn btn-primary" href="http://www.heathfieldconstruction.co.uk/">View website</a></p>
+         </div>
+          <div class="span6">
+            <div class="carousel slide">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <a href="http://www.heathfieldconstruction.co.uk/" class="thumbnail"><img src="/assets/img/web/heathfieldconstruction/1.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                  <a href="http://www.heathfieldconstruction.co.uk/" class="thumbnail"><img src="/assets/img/web/heathfieldconstruction/2.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                  <a href="http://www.heathfieldconstruction.co.uk/" class="thumbnail"><img src="/assets/img/web/heathfieldconstruction/3.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                  <a href="http://www.heathfieldconstruction.co.uk/" class="thumbnail"><img src="/assets/img/web/heathfieldconstruction/4.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                  <a href="http://www.heathfieldconstruction.co.uk/" class="thumbnail"><img src="/assets/img/web/heathfieldconstruction/5.jpg" alt=""></a>
                 </div>
               </div>
             </div>
-            <hr />
-          </section>
+          </div>
+        </div>
+        <hr />
+      </section>
       <footer>
-        <p class="pull-right"><a href="https://twitter.com/AndyBowskill" class="twitter-follow-button" data-show-count="false">Follow @AndyBowskill</a></p>
-        <p>&copy; Andy Bowskill 2012</p>        
+        <p class="text-center"><small>&copy; Andy Bowskill 2013</small></p>
       </footer>
     </div> <!-- /container -->
 
-    <script src="/assets/js/jquery-1.7.2.min.js"></script>
+    <script src="/assets/js/jquery-1.9.1.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/application.min.js"></script>
         
