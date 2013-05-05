@@ -1,3 +1,8 @@
+body {
+  position: relative;
+  padding-top: 40px;
+}
+
 .navbar-fixed-top .navbar-inner,
 .navbar-static-top .navbar-inner {
   -webkit-box-shadow: 0 3px 7px rgba(0,0,0,.2);
@@ -9,27 +14,34 @@ ul.nav {
   font-size: 18px;
   font-weight: 200;
 }
+
 ul.nav li a img
 {
   width: 32px;
   height: 32px;
 }
+
 .navbar .nav li a.contact {
   float: none;
   padding: 4px 8px 4px 0px;
 }
+
 .navbar .nav li a.contact_last {
   float: none;
   padding: 4px 15px 4px 0px;
 }
+
 .hero-unit h1 {
   margin-bottom: 20px;
 }
+
 .hero-unit a {
   color: #fff;
 }
+
 .hero-unit {
-  padding-bottom: 20px;
+  position: relative;  
+  padding: 20px 0px;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
@@ -41,8 +53,13 @@ ul.nav li a img
   background: -o-radial-gradient(center, ellipse cover,  #4babe4 0%,#037cc7 100%);
   background: -ms-radial-gradient(center, ellipse cover,  #4babe4 0%,#037cc7 100%);
   background: radial-gradient(ellipse at center,  #4babe4 0%,#037cc7 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4babe4', endColorstr='#037cc7',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4babe4', endColorstr='#037cc7',GradientType=0 );
   -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
      -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
           box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+
+.hero-unit .container {
+  position: relative;
+  z-index: 2;
 }
