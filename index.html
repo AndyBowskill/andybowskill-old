@@ -1,181 +1,220 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Andy Bowskill - Software developer based in Berkshire, United Kingdom</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Official website of Andy Bowskill, software developer and web designer." />
-    <meta name="keywords" content="software developer, web developer, web designer, Andy Bowskill, Berkshire, South-East, UK, iOS, C#, JavaScript, jQuery, HTML, CSS" />
+    <meta name="keywords" content="software developer, web developer, web designer, Andy Bowskill, Berkshire, South-East, UK, iOS, C#, JavaScript, HTML, CSS" />
     <meta name="author" content="Andy Bowskill">
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="/assets/css/application.css" rel="stylesheet">
-    <link href="/assets/css/application-responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <title>Andy Bowskill - Software developer based in Berkshire, UK</title>
+    <!-- CSS -->
+    <!--===============================================================-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:600' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="/assets/img/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/ico/appletouch114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/appletouch72.png">
-    <link rel="apple-touch-icon-precomposed" href="/assets/ico/appletouch57.png">
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
-      ga('create', 'UA-70828012-1', 'auto');
-      ga('send', 'pageview');
-    
-    </script>
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <ul class="nav">
-            <li class="active">
-              <a href="/">iOS</a>
-            </li>
-            <li>
-              <a href="/web/">Web</a>
-            </li>
-            <li>
-              <a href="http://blog.andybowskill.co.uk/">Blog</a>
-            </li>
-          </ul>
-          <ul class="nav pull-right">
-            <li>
-              <a class="contact" href="https://twitter.com/AndyBowskill"><img src="/assets/img/twitter_icon.png" alt="twitter"></a>
-            </li>
-            <li>              
-              <a class="contact_last" href="http://www.linkedin.com/in/andrewbowskill"><img src="/assets/img/LinkedIn_icon.png" alt="LinkedIn"></a>
-            </li>            
-          </ul>
-        </div>
-       </div>
-    </div>
-    <header class="hero-unit">
+
+  <!-- NAVBAR-->
+  <!--===============================================================-->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
-        <h1>Andy Bowskill</h1>
-        <p class="lead">A portfolio of completed personal projects designed and developed by me, a professional software developer based in Berkshire, United Kingdom.</p>
-        <p>Contact me at <a href="mailto:andy@andybowskill.co.uk">andy@andybowskill.co.uk</a>.</p>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" data-scroll href="#home">Andy Bowskill</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a data-scroll href="#portfolio">Projects</a></li>
+            <li><a data-scroll href="http://blog.andybowskill.co.uk/">Blog</a></li>
+            <li><a data-scroll href="#contact"><span class="contact">Contact</span></a></li>
+          </ul>
+        </div>
       </div>
-    </header>
-    <div class="container">
-      <section id="iOS">
-        <div class="row">
-          <div class="span9">
-            <h2>Non League</h2>
-            <p>The best way for the <strong>English non league football fan</strong> to stay up to date with the <strong>fixtures</strong>, <strong>results</strong>, <strong>league tables</strong> and <strong>news</strong> from the <strong>twelve divisions</strong> that comprise the top four steps of the English National League System hierarchy.</p>
-            <p>Fixtures, results and league tables for the following divisions:</p>
-            <ul>
-              <li>Step One: Football Conference National.</li>
-              <li>Step Two: Football Conference North, Football Conference South.</li>
-              <li>Step Three: Northern Premier League Premier Division, Southern League Premier Division, Isthmian League Premier Division.</li>
-              <li>Step Four: Northern Premier League Division One North, Northern Premier League Division One South, Southern League Division One Central, Southern League Division One South &amp; West, Isthmian League Division One North, Isthmian League Division One South.</li>
-            </ul>
-            <p>Scores are always up to date, even for games that are in-progress. Numerous news feeds/sources to keep you up to date with the latest developments in the non league football world.</p>
-            <br />
-            <p><a href="https://itunes.apple.com/gb/app/non-league/id356123137?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.svg);}"></a></p>
-          </div>
-          <div class="span3">
-            <div class="carousel slide">
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="/assets/img/apps/nonleague/1.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="/assets/img/apps/nonleague/2.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="/assets/img/apps/nonleague/3.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="/assets/img/apps/nonleague/4.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="/assets/img/apps/nonleague/5.jpg" alt="">
-                </div>                
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="row">            
-          <div class="span9">
-            <h2>Make-Up Kit</h2>
-            <p>Produced in conjunction with a <strong><a href="http://www.daniduffymakeup.co.uk/">professional make-up artist</a></strong>, Make-Up Kit provides a clean and simple method of maintaining a <strong>categorised inventory</strong> of your make-up kit so that its details are always close to hand.</p>
-            <ul>
-              <li><strong>19 make-up categories</strong>, each allowing <strong>unlimited</strong> make-up items to be added.</li>
-            </ul>
-            <p>Each make-up item can:</p>
-            <ul>
-              <li>Have its own <strong>image</strong> assigned, either taken using the device's camera or from the device's stored photos.</li>
-              <li>Have its own specific <strong>colour</strong> and <strong>shade</strong> selected to aid identification.</li>
-              <li>Have an estimated expiry date calculated according to its make-up category and date the item was first opened.</li>
-              <li>Show a preview of either its image or colour in the list of make-up items for a category.</li>
-            </ul>
-            <br />
-            <p><a href="https://itunes.apple.com/gb/app/make-up-kit/id466552301?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.svg);}"></a></p>
-          </div>
-          <div class="span3">
-            <div class="carousel slide">
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="/assets/img/apps/makeupkit/1.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="/assets/img/apps/makeupkit/2.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="/assets/img/apps/makeupkit/3.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="/assets/img/apps/makeupkit/4.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="/assets/img/apps/makeupkit/5.jpg" alt="">
-                </div>
-              </div>
-            </div>
-          </div>          
-        </div>
-        <hr />            
-        <div class="row">
-          <div class="span9">
-            <h2>UK Sale Calc</h2>
-            <p>UK Sale Calc is the app to rely on when you need to <strong>quickly</strong> and <strong>easily calculate the sale price</strong> of that bargain item, and how much you will <strong>save</strong> compared to the original price.</p>
-            <p>Original prices can also be entered net of VAT (Value Added Tax) and a VAT percent can be specified and applied to the calculation if desired.</p>
-            <br />
-            <p><a href="https://itunes.apple.com/gb/app/uk-sale-calc/id379237138?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.svg);}"></a></p>
-          </div>
-          <div class="span3">
-            <div class="carousel slide">
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="/assets/img/apps/uksalecalc/1.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="/assets/img/apps/uksalecalc/2.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="/assets/img/apps/uksalecalc/3.jpg" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-      </section>
-      <footer>
-        <p class="text-center"><small>&copy; Andy Bowskill 2013</small></p>
-      </footer>
     </div>
 
-    <script src="/assets/js/jquery-1.9.1.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/application.js"></script>
+    <!-- INTRO-->
+    <!--===============================================================-->
+    <div class="bg-intro" id="home">
+      <div class="layer-intro">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="text-center">Hi!<br />I'm Andy Bowskill. A software developer based in Berkshire, UK.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow-down"></div>
+
+    <!-- PORTFOLIO-->
+    <!--===============================================================-->
+    <div class="bg-portfolio" id="portfolio">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="title">PROJECTS</h2>
+            <hr />
+          </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h3>Non League</h3>
+                <h4>Apple iOS App</h4>
+            </div>
+        </div>
+        <div class="row row-portfolio">
+          <div class="col-sm-4 margin-bottom-xs">
+              <a href="https://itunes.apple.com/gb/app/non-league/id356123137?mt=8&uo=4">
+                <img class="img-responsive" src="assets/images/nonleague/1.jpg" alt="portfolio-1">
+              </a>
+          </div>
+          <div class="col-sm-4 margin-bottom-xs">
+              <a href="https://itunes.apple.com/gb/app/non-league/id356123137?mt=8&uo=4">
+                <img class="img-responsive" src="assets/images/nonleague/2.jpg" alt="portfolio-1">
+              </a>
+          </div>
+          <div class="col-sm-4">
+              <a href="https://itunes.apple.com/gb/app/non-league/id356123137?mt=8&uo=4">
+                <img class="img-responsive" src="assets/images/nonleague/3.jpg" alt="portfolio-1">
+              </a>
+          </div>
+        </div>
+
+        <hr />
         
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h3>Dani Duffy Make-Up</h3>
+                <h4>Website</h4>
+            </div>
+        </div>
+        <div class="row row-portfolio">
+          <div class="col-sm-6 margin-bottom-xs">
+              <a href="http://www.daniduffymakeup.co.uk/">
+                <img class="img-responsive" src="assets/images/daniduffymakeup/1.jpg" alt="portfolio-1">
+              </a>
+          </div>
+          <div class="col-sm-6">
+              <a href="http://www.daniduffymakeup.co.uk/">
+                <img class="img-responsive" src="assets/images/daniduffymakeup/2.jpg" alt="portfolio-1">
+              </a>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h3>South West Sunrooms</h3>
+                <h4>Website</h4>
+            </div>
+        </div>
+        <div class="row row-portfolio">
+          <div class="col-sm-6 margin-bottom-xs">
+              <a href="http://www.southwestconservatories.co.uk/">
+                <img class="img-responsive" src="assets/images/southwestsunrooms/1.jpg" alt="portfolio-1">
+              </a>
+          </div>
+          <div class="col-sm-6">
+              <a href="http://www.southwestconservatories.co.uk/">
+                <img class="img-responsive" src="assets/images/southwestsunrooms/2.jpg" alt="portfolio-1">
+              </a>
+          </div>
+        </div>
+        
+        <hr />
+
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h3>Heathfield Construction</h3>
+                <h4>Website</h4>
+            </div>
+        </div>
+        <div class="row row-portfolio">
+          <div class="col-sm-6 margin-bottom-xs">
+              <a href="http://www.heathfieldconstruction.co.uk/">
+                <img class="img-responsive" src="assets/images/heathfieldconstruction/1.jpg" alt="portfolio-1">
+              </a>
+          </div>
+          <div class="col-sm-6">
+              <a href="http://www.heathfieldconstruction.co.uk/">
+                <img class="img-responsive" src="assets/images/heathfieldconstruction/2.jpg" alt="portfolio-1">
+              </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CONTACT-->
+    <!--===============================================================-->
+    <div class="bg-contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h4>Please feel free to contact me at andy@andybowskill.co.uk</h4>
+            <a href="mailto:andy@andybowskill.co.uk" class="mail"><span class="glyphicon glyphicon-envelope"></span>EMAIL</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER-->
+    <!--===============================================================-->
+    <div class="bg-footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <a href="https://www.linkedin.com/in/andrewbowskill/"><i class="fa fa-linkedin left"></i></a>
+            <a href="https://twitter.com/AndyBowskill/"><i class="fa fa-twitter right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER-BOTTOM-->
+    <!--===============================================================-->
+    <div class="bg-footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="copyright">2016 &copy; Andy Bowskill - All Rights Reserved</p>
+          </div>
+          <div class="col-sm-6">
+            <ul class="list-inline pull-right">
+              <li class="border-right"><a href="#home" data-scroll>Top</a></li>
+              <li class="border-right"><a href="#portfolio" data-scroll>Projects</a></li>
+              <li><a href="#services" data-scroll>Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT-->
+    <!--===============================================================-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="assets/js/jRespond.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
