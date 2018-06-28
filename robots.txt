@@ -1,5 +1,3 @@
-Sitemap: http://www.andybowskill.co.uk/sitemap.xml
-
 User-Agent: *
 Disallow:
 Disallow: /assets/img/
